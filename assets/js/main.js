@@ -9,9 +9,9 @@ request.onload = function () {
   var { feed } = JSON.parse(this.response);
 
   if (request.status >= 200 && request.status < 400) {
-    const efetivo = feed.entry[3].content.$t;
-    const vacinados = feed.entry[4].content.$t;
-    const naoVacinado = feed.entry[5].content.$t;
+    const efetivo = feed.entry[5].content.$t;
+    const vacinados = feed.entry[6].content.$t;
+    const naoVacinado = feed.entry[7].content.$t;
 
     const date = new Date(feed.updated.$t);
     let dataFormatada =
