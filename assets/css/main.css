@@ -79,13 +79,37 @@ section .container .content .wrapper img {
   height: auto;
 }
 section .container .content .wrapper .seringa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   height: auto;
+}
+section .container .content .wrapper .seringa .complete {
+  background: #4d7777;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.5em;
+  color: #f2fffd;
+}
+section .container .content .wrapper .seringa .complete span {
+  font-weight: 900;
+}
+section .container .content .wrapper .seringa svg {
+  overflow: visible;
+}
+section .container .content .wrapper .seringa svg #empurrador-interno {
+  transform: translateX(-40px);
 }
 section .container .content .wrapper .circle {
   width: 50%;
 }
 section .container .content .wrapper .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 section .container .content .wrapper .details p {

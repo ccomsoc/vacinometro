@@ -68,8 +68,32 @@ section {
         }
 
         .seringa {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           width: 80%;
           height: auto;
+
+          .complete {
+            background: $blue;
+            padding: $gap;
+            text-align: center;
+            font-size: $font-small * 1.5;
+            color: $white;
+
+            span {
+              font-weight: 900;
+            }
+          }
+
+          svg {
+            overflow: visible;
+
+            #empurrador-interno {
+              transform: translateX(-40px);
+            }
+          }
         }
 
         .circle {
@@ -77,6 +101,10 @@ section {
         }
 
         .details {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           width: 100%;
 
           p {
