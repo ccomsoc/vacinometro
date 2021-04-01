@@ -1,0 +1,94 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    background-color: rgba($white, 0.7);
+    margin: $gap;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: $gap 0;
+
+      img {
+        width: 150px;
+        height: auto;
+      }
+    }
+
+    .head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: $gap;
+
+      h1 {
+        color: $blue;
+        font-size: $font-big;
+        font-weight: 900;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .dose {
+        font-size: $font-small * 1.5;
+        text-align: center;
+        font-weight: 300;
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: $gap;
+        gap: $gap;
+
+        img {
+          width: 80%;
+          height: auto;
+        }
+
+        .seringa {
+          width: 80%;
+          height: auto;
+        }
+
+        .circle {
+          width: 50%;
+        }
+
+        .details {
+          width: 100%;
+
+          p {
+            font-size: $font-small;
+            padding: $gap-small;
+
+            span {
+              font-weight: 900;
+            }
+          }
+        }
+      }
+    }
+  }
+}

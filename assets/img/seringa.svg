@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1206.14 207.23">
+<defs>
+<style>.cls-1{fill:#dcdee0;}.cls-2{fill:#abafb2;}.cls-3{fill:#939393;}.cls-4{fill:#178bca;}.cls-5{fill:#106489;}.cls-6{fill:#4d4d4d;}.cls-7{fill:#333;}.cls-8{fill:#fff;}
+</style>
+</defs>
+<g id="Camada_2" data-name="Camada 2">
+<g id="Camada_1-2" data-name="Camada 1">
+<g id="agulha">
+<path class="cls-1" d="M1026.41,103.3h179.73v-2.9h-180a17.74,17.74,0,0,1,.23,2.74C1026.42,103.2,1026.41,103.24,1026.41,103.3Z"/><path class="cls-2" d="M1026.42,103.14a17.74,17.74,0,0,0-.23-2.74c-1.06-6.87-5.85-8.93-5.85-8.93h-90V103.3h96.11C1026.41,103.24,1026.42,103.2,1026.42,103.14Z"/><path class="cls-2" d="M1026.09,106.83h180.05V103.3H1026.41A20.83,20.83,0,0,1,1026.09,106.83Z"/><path class="cls-3" d="M1026.09,106.83a20.83,20.83,0,0,0,.32-3.53H930.3v12.47h90S1024.84,113.68,1026.09,106.83Z"/></g><g id="liquido"><polygon class="cls-4" points="909.59 91.47 909.59 43.59 377.2 43.59 377.2 103.3 868.99 103.3 909.59 103.3 909.59 91.47"/><polygon class="cls-5" points="909.59 115.77 909.59 103.3 868.99 103.3 377.2 103.3 377.2 163.64 909.59 163.64 909.59 115.77"/></g><g id="empurrador-internto"><polygon class="cls-6" points="432.67 43.59 432.67 43.47 409.8 43.47 409.8 90.97 359.3 90.97 359.3 103.3 409.8 103.3 425.05 103.3 427.78 103.3 432.67 103.3 432.67 43.59"/><polygon class="cls-7" points="432.67 163.64 432.67 103.3 427.78 103.3 425.05 103.3 409.8 103.3 359.3 103.3 359.3 115.63 409.8 115.63 409.8 163.76 432.67 163.76 432.67 163.64"/></g><g id="empurrador-externo"><rect class="cls-7" y="103.3" width="22.87" height="74.87"/><rect class="cls-6" y="28.5" width="22.87" height="74.87"/></g><g id="cano"><rect class="cls-7" x="22.87" y="103.3" width="337.58" height="12.33"/><rect class="cls-6" x="22.87" y="90.97" width="337.58" height="12.33"/></g><g id="tampa"><polygon class="cls-2" points="303.83 90.97 303.83 32.16 303.83 0 278.11 0 278.11 90.97 278.11 103.3 300.02 103.3 303.83 103.3 303.83 90.97"/><polygon class="cls-3" points="303.83 175.08 303.83 115.63 303.83 103.3 300.02 103.3 278.11 103.3 278.11 115.63 278.11 207.24 303.83 207.24 303.83 175.08"/>
+</g>
+
+<g id="ampola">
+<g id="ampola-2" data-name="ampola">
+<rect class="cls-1" x="303.84" y="32.16" width="73.37" height="71.14"/>
+<rect class="cls-1" x="374.16" y="32.16" width="535.42" height="11.31"/>
+<rect class="cls-2" x="303.84" y="103.62" width="73.37" height="71.14"/>
+<rect class="cls-2" x="374.16" y="163.45" width="535.42" height="11.31"/>
+<rect class="cls-1" x="909.59" y="32.16" width="20.72" height="71.14"/>
+<rect class="cls-2" x="909.59" y="103.3" width="20.72" height="71.78"/>
+</g>
+<rect class="cls-2" x="303.84" y="103.3" width="73.37" height="71.29"/>
+</g>
+<g id="porcentagem">
+<rect class="cls-8" x="401.5" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="455.02" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="508.54" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="562.07" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="615.59" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="669.11" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="722.64" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="776.16" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="829.68" y="90.97" width="5.24" height="63.54"/>
+<rect class="cls-8" x="883.21" y="90.97" width="5.24" height="63.54"/>
+</g>
+</g>
+</g>
+</svg>
