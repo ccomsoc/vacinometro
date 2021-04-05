@@ -58,6 +58,22 @@ section .container .head .dose {
   text-align: center;
   font-weight: 300;
 }
+@media screen and (max-width: 576px) {
+  section .container .head h1 {
+    font-size: 2.3em;
+  }
+  section .container .head .dose {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 375px) {
+  section .container .head h1 {
+    font-size: 2.3em;
+  }
+  section .container .head .dose {
+    font-size: 1.2em;
+  }
+}
 section .container .content {
   display: flex;
   flex-direction: column;
@@ -86,8 +102,9 @@ section .container .content .wrapper .seringa {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   height: auto;
+  opacity: 0;
 }
 section .container .content .wrapper .seringa .complete {
   background: #4d7777;
@@ -103,7 +120,7 @@ section .container .content .wrapper .seringa .complete span {
 }
 section .container .content .wrapper .seringa svg {
   overflow: visible;
-  margin: 40px;
+  margin: 40px 0;
 }
 section .container .content .wrapper .seringa svg #empurrador-interno {
   transform: translateX(-40px);
@@ -117,6 +134,7 @@ section .container .content .wrapper .details {
   justify-content: center;
   align-items: center;
   width: 100%;
+  opacity: 0;
 }
 section .container .content .wrapper .details h3 {
   text-align: center;
@@ -133,6 +151,66 @@ section .container .content .wrapper .details p {
 }
 section .container .content .wrapper .details p span {
   font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  section .container .content h2 {
+    width: 100%;
+  }
+  section .container .content .wrapper {
+    gap: 0;
+  }
+  section .container .content .wrapper .seringa {
+    width: 100%;
+  }
+  section .container .content .wrapper .seringa .complete {
+    margin: 10px;
+  }
+  section .container .content .wrapper .seringa svg {
+    margin: 10px 0;
+  }
+  section .container .content .wrapper .details p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  section .container .content h2 {
+    width: 100%;
+  }
+  section .container .content .wrapper {
+    gap: 0;
+  }
+  section .container .content .wrapper .seringa {
+    width: 100%;
+  }
+  section .container .content .wrapper .seringa .complete {
+    margin: 10px;
+  }
+  section .container .content .wrapper .seringa svg {
+    margin: 10px 0;
+  }
+  section .container .content .wrapper .details p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  section .container .content h2 {
+    width: 100%;
+  }
+  section .container .content .wrapper {
+    gap: 0;
+  }
+  section .container .content .wrapper .seringa {
+    width: 100%;
+  }
+  section .container .content .wrapper .seringa .complete {
+    margin: 10px;
+  }
+  section .container .content .wrapper .seringa svg {
+    margin: 10px 0;
+  }
+  section .container .content .wrapper .details p {
+    text-align: center;
+  }
 }
 
 footer {

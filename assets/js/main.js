@@ -35,17 +35,20 @@ request.send();
 // GSAP
 // Timelines
 const animation = () => {
-  var tl = gsap.timeline({
+  // var tl0 = gsap.timeline({
+  //   defaults: { duration: 3.0, ease: Circ.easeOut },
+  // });
+  var tl1 = gsap.timeline({
     defaults: { duration: 3.0, ease: Circ.easeOut },
   });
   var tl2 = gsap.timeline({
-    defaults: { duration: 3.0, ease: Circ.easeOut },
+    defaults: { duration: 3.0, ease: Circ.easeOut, delay: 4 },
   });
   var tl3 = gsap.timeline({
-    defaults: { duration: 3.0, ease: Circ.easeOut },
+    defaults: { duration: 3.0, ease: Circ.easeOut, delay: 4 },
   });
   var tl4 = gsap.timeline({
-    defaults: { duration: 3.0, ease: Circ.easeOut },
+    defaults: { duration: 3.0, ease: Circ.easeOut, delay: 4 },
   });
   var tl5 = gsap.timeline({
     defaults: { duration: 1.0, ease: Circ.easeOut, delay: 0.3 },
@@ -53,10 +56,23 @@ const animation = () => {
 
   // Animations
 
-  tl.to("#liquido", {
-    scaleX: 0.7,
-    transformOrigin: "right",
-  }),
+  tl1
+    .fromTo(
+      ".seringa",
+      {
+        opacity: 0,
+        scale: 0,
+      },
+      {
+        opacity: 1,
+        scale: 1,
+      }
+    )
+    .to("#liquido", {
+      scaleX: 0.7,
+      transformOrigin: "right",
+      delay: 1,
+    }),
     tl2.fromTo(
       "#empurrador-interno",
       {
